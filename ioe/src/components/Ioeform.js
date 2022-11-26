@@ -145,13 +145,13 @@ const Ioeform = () => {
                   </label>
                 </div>
               </div>
-              <div className="container">
-                <h1 className="h1">Developed By - <a target="_main" href="https://facebook.com/bhuwanacharya.998">Bhuwan Acharya</a></h1>
-              </div>
             </div>
           </form>
         </div>
       </div>
+      <div className="container">
+                <h1 className="h1">Developed By - <a target="_main" href="https://facebook.com/bhuwanacharya.998">Bhuwan Acharya</a></h1>
+              </div>
     </>
   );
 };
