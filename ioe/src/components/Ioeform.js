@@ -21,7 +21,7 @@ const Ioeform = () => {
   const spinner = () => {};
   useEffect(() => {
     const fetchresult = async () => {
-      const response = await fetch(`https://ioeresult/api/result/`, {
+      const response = await fetch(`https://ioeresults/api/result/`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -144,6 +144,9 @@ const Ioeform = () => {
                     <span class="gender">Other</span>
                   </label>
                 </div>
+              </div>
+              <div className="container">
+                <h1>Developed By - <a href="https://facebook.com/bhuwanacharya.998">Bhuwan Acharya</a></h1>
               </div>
             </div>
           </form>
