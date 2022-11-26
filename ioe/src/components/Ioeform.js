@@ -21,7 +21,7 @@ const Ioeform = () => {
   const spinner = () => {};
   useEffect(() => {
     const fetchresult = async () => {
-      const response = await fetch(`https://ioeresults/api/result/`, {
+      const response = await fetch(`https://ioeresults.herokuapp.com/api/result/`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
